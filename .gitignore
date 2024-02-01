@@ -1,3 +1,8 @@
+# custon ignores
+.idea
+out/
+target/
+
 # Compiled class file
 *.class
 
