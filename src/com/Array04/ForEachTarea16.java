@@ -27,10 +27,19 @@ public class ForEachTarea16 {
             }
         }
 
-
         /* #3
         Crea un Array con varios números enteros. Encuentra el promedio
          de todos los elementos.
          */
+        int [] numerosEnteros = {1, 2, 3};
+
+        int sumaEnteros = 0;
+
+        for (int suma : numerosEnteros){
+            sumaEnteros += suma; // suma de numeros
+        }
+        int promedioEnteros = (sumaEnteros / numerosEnteros.length);
+        System.out.println("Promedio es: "+ promedioEnteros);
+
     }
 }
