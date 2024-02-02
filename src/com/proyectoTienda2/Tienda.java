@@ -3,7 +3,7 @@ package src.com.proyectoTienda2;
 public class Tienda {
 
     // clase tienda para el manejo de inventario
-    private Producto[] inventario; //
+    private final Producto[] inventario; //
     private int cantidadProductos;
 
     public Tienda() {
