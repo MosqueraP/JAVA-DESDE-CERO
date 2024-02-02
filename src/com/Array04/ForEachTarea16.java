@@ -13,7 +13,7 @@ public class ForEachTarea16 {
         for (int suma : listNumeros){
             sumatorio += suma;
         }
-        System.out.println(sumatorio);
+        System.out.println("La suma de los numeros es: "+ sumatorio);
 
         /*#2
         Crea un Array con varias palabras. Imprime todas las palabras
@@ -21,11 +21,21 @@ public class ForEachTarea16 {
          */
 
         String [] palabras = {"Pc", "Lapto", "Impresora", "Monitor"};
+        /*
         for (int i = 0; i < palabras.length; i++) {
             if (palabras[i].length() > 5){
+                //System.out.println("Palabras moyres de 5 caracteres");
                 System.out.println(palabras[i]);
             }
         }
+         */
+
+        for (String nombre:palabras){
+            if (nombre.length() > 5){
+                System.out.println("> "+nombre);
+            }
+        }
+
 
         /* #3
         Crea un Array con varios números enteros. Encuentra el promedio
