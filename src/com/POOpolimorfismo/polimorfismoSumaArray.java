@@ -18,8 +18,8 @@ public class polimorfismoSumaArray {
     // suma de datos del array
     static int arraySuma(int[] array){
         int sumaTotal = 0;
-        for (int i = 0; i < array.length; i++){
-            sumaTotal += array[i];
+        for (int j : array) {
+            sumaTotal += j;
 
         }
         return sumaTotal;
@@ -39,10 +39,10 @@ public class polimorfismoSumaArray {
     public static void main(String[] args) {
         // metodo principal
 
-        int array[] = {1, 2, 3};
-        int array2[] = {0, 4, 3};
-
+        int[] array = {1, 2, 3};
         System.out.println(arraySuma(array));
+
+        int[] array2 = {0, 4, 3};
         System.out.println(Arrays.toString(arraySuma(array, array2)));
     }
 }

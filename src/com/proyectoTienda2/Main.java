@@ -7,11 +7,9 @@ public class Main {
         Producto[] productos = new Producto[3]; // inicializar product con tamaño 3
 
         // productos
-        /*
-        en tienda se inicializa la lista con 15 productos y de momento
-        solo agregamos tres el resto de indíces tendrán el valor de null
-        → inventario = new Producto[15]; // null por defecto
-         */
+        // en tienda se inicializa la lista con 15 productos y de momento
+        // solo agregamos tres el resto de indíces tendrán el valor de null
+        // → inventario = new Producto[15]; // null por defecto
         Accesorio manilla = new Accesorio("Manilla", 10, 50, "Elegante");
         Prenda camisa = new Prenda("Camisa", 80, 10, "S"); // agg elemento dell tipo elegante
         Prenda Bermuda = new Prenda("Bermuda", 30, 20, "M");
