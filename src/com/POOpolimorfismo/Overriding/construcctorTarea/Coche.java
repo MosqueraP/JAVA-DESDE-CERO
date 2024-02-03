@@ -6,12 +6,6 @@ public class Coche {
     uno que tome una marca y un modelo, y otro que tome una marca,
     un modelo y un año. Si solo se proporciona la marca y el modelo,
      establece el año en 2021.
-
-    Crea una clase "Empleado" que tenga dos constructores:
-    uno que tome un nombre y un salario, y otro que tome un nombre,
-    un salario y una fecha de contratación. Si solo se proporciona
-    el nombre y el salario, establece la fecha de contratación en la
-    fecha actual.
      */
 
     // atributos de clase Coche
