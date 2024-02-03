@@ -1,7 +1,5 @@
 package src.com.POOpolimorfismo;
 
-import src.com.ProyectoCajero1.Main;
-
 public class PolimorfismoConcatenarUpercase {
     /*
     Crea un método que tome una cadena como argumento y devuelva la cadena
