@@ -1,4 +1,4 @@
-package src.com.POOpolimorfismo.Saludo;
+package src.com.POOpolimorfismo.Overriding.Saludo;
 
 public class Estudiante extends Persona{
     @Override
