@@ -1,14 +1,21 @@
 package src.com.abstraccion.interfascegetArea;
 
 public class Rectangulo implements Forma {
+    private double numBase;
+    private double numAltura;
 
-    @Override
-    public void getArea() {
-
+    public Rectangulo(double numBase, double numAltura) {
+        this.numBase = numBase;
+        this.numAltura = numAltura;
     }
 
-    @Override // cambiar comportamiento desde esta implementación
-    public void getPerimetro() {
+    @Override
+    public double getArea(){
+        return numBase * numAltura;
+    }
 
+    @Override
+    public double getPerimetro() {
+        return 2 *  (numBase * numAltura);
     }
 }

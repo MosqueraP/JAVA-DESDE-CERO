@@ -1,14 +1,16 @@
 package src.com.abstraccion.interfascegetArea;
 
 public class Circulo implements Forma {
+    private double radio;
 
-    @Override // cambiar comportamiento desde esta implementación
-    public void getArea() {
 
+    @Override
+    public double getArea() {
+        return Math.PI * radio * radio;
     }
 
-    @Override // cambiar comportamiento desde esta implementación
-    public void getPerimetro() {
-
+    @Override
+    public double getPerimetro() {
+        return 2 * Math.PI * radio;
     }
 }
