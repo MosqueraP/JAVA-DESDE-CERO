@@ -1,4 +1,4 @@
-package src.com.abstraccion.interfac;
+package src.com.abstraccion.interfacBaseDAtos1;
 
 public interface BaseDatos {
 
