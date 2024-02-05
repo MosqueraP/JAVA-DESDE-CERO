@@ -1,15 +1,11 @@
 package src.com.abstraccion.interfaAccesible;
 
 public interface Accesible {
-    String contrasena;
 
-    static void getContrasena(){
-        System.out.println("Hola desde la intercas Accesible");
-    }
+    // métodos sin cuerpo por se la interfas
+    public String getContrasena();
 
-    static void setContrasena(String contrasena){
-        String contrasena;
-        System.out.println("Hola desde la intercas Accesible" + contrasena);
-    }
+    // métodos sin cuerpo por se la interfas
+    public void setContrasena(String contrasena);
 
 }
