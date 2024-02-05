@@ -1,4 +1,4 @@
-package src.com.abstraccion;
+package src.com.abstraccion.ejemplo1;
 
 // plantilla para otras plantillas
 public abstract class Personaje {

@@ -1,4 +1,4 @@
-package src.com.abstraccion;
+package src.com.abstraccion.ejemplo1;
 
 public class Mago extends Personaje {
 
