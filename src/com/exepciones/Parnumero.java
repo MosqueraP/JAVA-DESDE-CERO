@@ -14,7 +14,7 @@ public class Parnumero {
         Scanner input = new Scanner(System.in);
 
         try {
-            System.out.println("Escribe un numero: ");
+            System.out.print("Escribe un numero: ");
             // hasNextInt, comprueba que el dato ingresado sea entero
             if (input.hasNextInt()) {
                 int num = input.nextInt(); // recoje enteros
