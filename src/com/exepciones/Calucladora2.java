@@ -33,12 +33,12 @@ public class Calucladora2 {
                     if (num2 == 0) {
                         throw new ArithmeticException("No se puede dividir por cero");
                     }
-                    resultado = num1 / num2;
+                    resultado = num1 / num2; // so no hay error muestra el resultado
                         break;
                 default:
-                    throw new Exception("Operacion invalida");
+                    throw new Exception("Operacion invalida"); // si se coloca operacion errado
             }
-            System.out.println("el resultado es: " + resultado);
+            System.out.println("el resultado es: " + resultado); // imprimir la operación
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
