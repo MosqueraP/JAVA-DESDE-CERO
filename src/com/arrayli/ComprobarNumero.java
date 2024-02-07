@@ -7,7 +7,5 @@ public class ComprobarNumero {
         //int num = Integer.parseInt(numero);
 
         System.out.println(Character.isDigit(digito));
-
-
     }
 }
