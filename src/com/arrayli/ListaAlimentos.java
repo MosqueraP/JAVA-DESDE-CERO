@@ -18,5 +18,11 @@ public class ListaAlimentos {
         System.out.println(lista);
         System.out.println(lista.size()); // tamaño de la lista
 
+        // convertir un wrapper clase a objeto
+        String numero = "3";
+        int num = Integer.parseInt(numero);
+
+        System.out.print(num);
+
     }
 }
