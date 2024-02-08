@@ -10,6 +10,9 @@ public class HashSetAnimales {
         set.add("Perro");
         set.add("Gato");
 
+        // no respeta el orden
+        System.out.println(set); // [Gato, Leon, Perro]
+
         set.remove("Gato"); // elimina
         set.remove("Leon"); // elimina
 
