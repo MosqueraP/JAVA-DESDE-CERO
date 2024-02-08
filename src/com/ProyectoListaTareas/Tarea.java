@@ -1,17 +1,14 @@
 package src.com.ProyectoListaTareas;
 
 public class Tarea {
-    // atributos de clases
     private String nombre;
     private boolean completada;
 
-    // constructor
-    public Tarea(String nombre, boolean completada) {
+    public Tarea(String nombre) {
         this.nombre = nombre;
-        this.completada = false; // al crear la tareas esta en false no completada
+        completada = false;
     }
 
-    // getters / setters
     public String getNombre() {
         return nombre;
     }
@@ -20,11 +17,17 @@ public class Tarea {
         this.nombre = nombre;
     }
 
-    public boolean isCompletada() {
+    public boolean estaCompletada() {
         return completada;
     }
 
     public void setCompletada(boolean completada) {
         this.completada = completada;
+    }
+
+    @Override
+    public String toString() {
+        String estado = estaCompletada() ? "[x]" : "[ ]";
+        return nombre + " " + estado;
     }
 }
