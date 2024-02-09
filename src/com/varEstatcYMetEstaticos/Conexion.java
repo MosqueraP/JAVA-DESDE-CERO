@@ -4,6 +4,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
+    /*
+
     public static String baseDatos;
 
     // se ejecuta antes de cualquier otra cosa
@@ -11,7 +13,7 @@ public class Conexion {
     static {
         try {
             // establecer la conexion bd
-            baseDatos = DriverManager.getConnection("howard.com", "usuario", "contraseña")
+            //baseDatos = DriverManager.getConnection("howard.com", "usuario", "contraseña")
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -20,4 +22,6 @@ public class Conexion {
     public static void main(String[] args) {
 
     }
+
+     */
 }

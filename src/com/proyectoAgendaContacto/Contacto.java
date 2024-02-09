@@ -4,13 +4,11 @@ public class Contacto {
     private String nombre;
     private String telefono;
 
-    // constructor
     public Contacto(String nombre, String telefono) {
         this.nombre = nombre;
         this.telefono = telefono;
     }
 
-    // getters / setters
     public String getNombre() {
         return nombre;
     }
