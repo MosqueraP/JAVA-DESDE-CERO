@@ -25,7 +25,7 @@ public class JuegoAdivinanza {
 
         // si la lista no está vacía entra en el while
         while (!palabras.isEmpty()) {
-            System.out.println("Ingresa una palabra: ");
+            System.out.print("Ingresa una palabra: ");
             String palabra = input.nextLine().toLowerCase();
             if (palabras.contains(palabra)) {
                 palabras.remove(palabra);
