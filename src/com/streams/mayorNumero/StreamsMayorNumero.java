@@ -62,7 +62,12 @@ public class StreamsMayorNumero {
                 //.forEach(nombre -> System.out.println(nombre));
                 .forEach(System.out::println);
 
-
+        /* 6
+        Verifica si al menos un número de una lista es mayor que 10
+         */
+        boolean numeroMayorDiez = numeros.stream()
+                .anyMatch(numero -> numero > 10);
+        System.out.println(numeroMayorDiez);
 
 
     }
