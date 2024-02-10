@@ -57,6 +57,12 @@ public class StreamsMayorNumero {
         Imprime cada elemento de una lista
          */
 
+        nombres.stream()
+                .distinct()
+                //.forEach(nombre -> System.out.println(nombre));
+                .forEach(System.out::println);
+
+
 
 
     }
