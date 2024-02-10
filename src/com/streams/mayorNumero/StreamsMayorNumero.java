@@ -23,5 +23,26 @@ public class StreamsMayorNumero {
                 .toList();  // [11, 14, 12]
 
         System.out.println(numeroMayoresStreams);
+
+
+        /* 3
+        Convierte todos los nombres a mayúsculas de una
+        lista de palabras
+         */
+
+        List<String> nombres = new ArrayList<>();
+
+        nombres.add("Nico");
+        nombres.add("Andres");
+        nombres.add("Jasmes");
+        nombres.add("Falcao");
+        nombres.add("Falcao");
+
+        List<String> nombresMayuscula = nombres.stream()
+                .map(nombre -> nombre.toUpperCase())
+                .toList(); //
+
+        System.out.println(nombresMayuscula);
+
     }
 }
