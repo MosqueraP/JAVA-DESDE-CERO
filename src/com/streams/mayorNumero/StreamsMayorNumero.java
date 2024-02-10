@@ -44,5 +44,20 @@ public class StreamsMayorNumero {
 
         System.out.println(nombresMayuscula);
 
+        /* 4
+        Elimina elementos duplicados de una lista
+         */
+        List<String> nombresUnicos = nombres.stream()
+                .distinct()
+                .toList();
+        System.out.println(nombresUnicos);
+
+
+        /* 5
+        Imprime cada elemento de una lista
+         */
+
+
+
     }
 }
