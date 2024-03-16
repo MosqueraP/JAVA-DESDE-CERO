@@ -1,4 +1,5 @@
-public class Ejemplo {
+public class EjemploVerVariables {
+
     // metodo principal
     public static void main(String[] args) {
         // variables int x = 1;
@@ -10,7 +11,8 @@ public class Ejemplo {
         boolean howardTieneGatos = true; // Boleno true, false
         char inicialDeHoward = 'H'; // N
 
-        // imprimir x
+        // imprimir variables
         System.out.println(inicialDeHoward);
+        System.out.println(precio2);
     }
 }
